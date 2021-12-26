@@ -1,0 +1,11 @@
+{
+  "Name": "Delores Spouse Room",
+  "Author": "blaaze6",
+  "Version": "0.9.9",
+  "Description": "Spouse Room for Delores",
+  "UniqueID": "DeloresSpouseRoom.blaaze6",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}
