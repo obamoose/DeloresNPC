@@ -60,7 +60,7 @@
                 "LogName": "Delores Base Portrait",
                 "Action": "Load",
                 "Target": "Portraits/Delores",
-                "FromFile": "Assets/Sprites/portrait.png",
+                "FromFile": "Assets/Portraits/portrait.png",
             },
 
             /*********
@@ -70,7 +70,7 @@
                 "LogName": "Delores Sports Portrait",                
                 "Action": "EditImage",
                 "Target": "Portraits/Delores",
-                "FromFile": "Assets/Sprites/delores_sport_portrait.png",
+                "FromFile": "Assets/Portraits/delores_sport_portrait.png",
                     "When": { "LocationName": "Forest, Beach, Hospital", }
             },
 
@@ -134,6 +134,26 @@
                     "Delores1": "My stomach's bouncing around, I'm so anxious!! Tomorrow's going to be the best day of my life.$8"
                 }
             },
+
+        /*********
+        ** Spouse Room
+        *********/
+        //Load SpouseRooms
+        {
+            "Action": "EditData",
+            "Target": "Data/SpouseRooms",
+            "Entries":
+            {
+                "Delores": "DeloresSpouseRoom/0",
+            }
+        },
+    
+        // Load SpouseRoom Map
+        {
+            "Action": "Load",
+            "Target": "Maps/DeloresSpouseRoom",
+            "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
+        },  
 
             /*********
             ** Wedding Dialogue
